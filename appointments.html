@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+ <link rel="stylesheet" href="style.css" />
+ <title>Form Validator</title>
+ </head>
+ <body>
+ <div class="container">
+ <h2>Schedule an Appointment</h2>
+ <form id="form" class="form" method=”POST” action=”submit”>
+ <div class="form-control">
+ <label for="E-ID">Employee ID</label>
+ <input type="number" id="E-ID" placeholder="Enter Employee ID" />
+ </div>
+ <div class="form-control">
+ <label for="email">Email</label>
+ <input type="text" id="email" placeholder="Enter email" />
+ </div>
+ <div class="form-control">
+ <label for="date">Apointment Date</label>
+ <input type="date" id="date" placeholder="Enter date" />
+ </div>
+ <div class="form-control">
+ <label for="Time">Time</label>
+ <input
+ type="time"
+ id="time"
+ placeholder="Enter time"
+ />
+ </div>
+ <button type="submit">Submit</button>
+ </form>
+ <div class="button" > <a href="./makeApp.html">Back</a> </div>
+ <div class="button" > <a href="./index.html">Log Out</a> </div>
+ </div>
+ </body>
+</html>
