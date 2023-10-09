@@ -5,3 +5,10 @@ The software lets the executives register their daily appointment schedules. The
 
 Technologies Used:
 HTML and CSS have been used to create the interactive UI. There are six HTML pages, all of which are linked to one style.css file which provides the design for TMS. Moreover, run-time interaction of the browser DOM is utilised to print the user-friendly messages in the script.js file which provides functionality to all the HTML pages. Server.js file finally connects the front-end to the ‘TMS’ mySQL database using express.js dependency provided to us by node.js framework, all of which have been downloaded into the package.json file using npm register.
+
+UI:
+
+<img width="361" alt="Screenshot 2023-10-09 at 16 44 15" src="https://github.com/CodeByTanya/Time-Management-Software/assets/147076219/e5873ac7-978e-4fe0-806f-5a60d6e7373f">
+<img width="351" alt="Screenshot 2023-10-09 at 16 44 44" src="https://github.com/CodeByTanya/Time-Management-Software/assets/147076219/ffa7ed3b-53d8-43cc-bfdf-1743bff3cbb4">
+<img width="334" alt="Screenshot 2023-10-09 at 16 44 59" src="https://github.com/CodeByTanya/Time-Management-Software/assets/147076219/1c5087c4-96fa-40c4-ac59-e52dbd94ff10">
+<img width="339" alt="Screenshot 2023-10-09 at 16 45 14" src="https://github.com/CodeByTanya/Time-Management-Software/assets/147076219/946dbaa4-2a5f-42bc-bc79-99a7cf3f7f81">
